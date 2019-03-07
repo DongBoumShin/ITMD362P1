@@ -87,6 +87,14 @@ li#input-EULA
     background-color: aliceblue;
     text-align: left;
   }
+  #email
+  {
+    width: 40%;
+  }
+  li#input-email
+  {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1024px)
@@ -113,5 +121,13 @@ li#input-EULA
   {
     background-color: aliceblue;
     text-align: left;
+  }
+  #email
+  {
+    width: 450px;
+  }
+  li#input-email
+  {
+    text-align: center;
   }
 }

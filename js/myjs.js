@@ -31,6 +31,7 @@ jQuery(function($) {
       }
   })
   $("#submit").on("click", function () {
+    $("#myform").removeAttr("onsubmit");
     if ($("#agreement").prop("checked"))
       {
         if (valEmail($("#email").val()))
@@ -40,11 +41,13 @@ jQuery(function($) {
         else
           {
             alert("Please input valid Email address!");
+            $("#myform").attr("onsubmit", "return false");
           }
       }
     else
       {
         alert("You have not Agreed to the EULA!");
+        $("#myform").attr("onsubmit", "return false");
       }
   })
   $("#EULA").on("click", function () {

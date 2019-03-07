@@ -21,6 +21,14 @@ jQuery(function($) {
   valCheck();
   $("#agreement").on("click", function () {
     valCheck();
+    if ($("#agreement").prop("checked"))
+      {
+        $(".EULALabel").text("Agreed!");
+      }
+    else
+      {
+        $(".EULALabel").text("I Agree");
+      }
   })
   $("#submit").on("click", function () {
     if ($("#agreement").prop("checked"))

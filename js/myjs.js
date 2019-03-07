@@ -7,6 +7,21 @@ jQuery(function($) {
     //tbh I don't know what this says, but stackoverflow says it's correct
     return ( $email.length > 0 && emailReg.test($email));
   }
+  function valCheck()
+  {
+    if (!$("#agreement").prop("checked"))
+      {
+        $("#submit").addClass('submitnotselected');
+      }
+    else
+    {
+      $("#submit").removeClass('submitnotselected');
+    }
+  }
+  valCheck();
+  $("#agreement").on("click", function () {
+    valCheck();
+  })
   $("#submit").on("click", function () {
     if ($("#agreement").prop("checked"))
       {
@@ -23,5 +38,8 @@ jQuery(function($) {
       {
         alert("You have not Agreed to the EULA!");
       }
+  })
+  $("#EULA").on("click", function () {
+    alert("You, the user, get enslaved by us, the Company.");
   })
 });

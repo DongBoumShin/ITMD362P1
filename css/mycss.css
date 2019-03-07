@@ -22,6 +22,7 @@ h1
 }
 .submit
 {
+  font-family: "Georgia", sans-serif;
   width: 100%;
   background-color: lightgray;
   color: darkslategrey;
@@ -44,6 +45,7 @@ li div#EULA
 }
 form li
 {
+  font-family: "Helvetica", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }

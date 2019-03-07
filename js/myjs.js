@@ -40,6 +40,6 @@ jQuery(function($) {
       }
   })
   $("#EULA").on("click", function () {
-    alert("You, the user, get enslaved by us, the Company.");
+    alert("You, the user, get enslaved by us, the Company."); 
   })
 });

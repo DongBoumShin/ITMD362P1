@@ -20,10 +20,6 @@ h1
   border: 0;
   margin-top: 10px;
 }
-#submitnotselected
-{
-  color: gray;
-}
 #submit
 {
   background-color: lightgray;
@@ -48,16 +44,21 @@ form li
   margin-top: 10px;
   margin-bottom: 10px;
 }
-input#agreement
-{
-  position: absolute;
-  left: -1000px;
-}
 li#input-EULA
 {
-  width: 100%;
   text-align: center;
-  background-color: aqua
+}
+li#input-EULA label
+{
+  display: block;
+  width: 100%;
+  background-color: aqua;
+  padding: 5px;
+}
+/*with js*/
+#submitnotselected
+{
+  color: gray;
 }
 
 
@@ -65,10 +66,6 @@ li#input-EULA
 @media only screen and (min-width: 440px) and (max-width: 1024px)
 {
   /*tablet*/
-  body
-  {
-    background-color: aqua;
-  }
   #submit
   {
     display: block;
@@ -84,8 +81,13 @@ li#input-EULA
   }
   li#input-EULA
   {
+    text-align: left;
+  }
+  li#input-EULA label
+  {
     background-color: aliceblue;
     text-align: left;
+    display: inline;
   }
   #email
   {
@@ -100,10 +102,6 @@ li#input-EULA
 @media only screen and (min-width: 1024px)
 {
   /*desktop*/
-  body
-  {
-    background-color: aquamarine;
-  }
   #submit
   {
     display: block;
@@ -117,10 +115,15 @@ li#input-EULA
   {
     position: static;
   }
-    li#input-EULA
+  li#input-EULA
+  {
+    text-align: left;
+  }
+  li#input-EULA label
   {
     background-color: aliceblue;
     text-align: left;
+    display: inline;
   }
   #email
   {

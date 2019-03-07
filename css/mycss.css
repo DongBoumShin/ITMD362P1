@@ -53,7 +53,12 @@ input#agreement
   position: absolute;
   left: -1000px;
 }
-
+li#input-EULA
+{
+  width: 100%;
+  text-align: center;
+  background-color: aqua
+}
 
 
 
@@ -77,6 +82,11 @@ input#agreement
   {
     position: static;
   }
+  li#input-EULA
+  {
+    background-color: aliceblue;
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 1024px)
@@ -98,5 +108,10 @@ input#agreement
   input#agreement
   {
     position: static;
+  }
+    li#input-EULA
+  {
+    background-color: aliceblue;
+    text-align: left;
   }
 }

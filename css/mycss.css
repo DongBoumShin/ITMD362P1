@@ -13,16 +13,56 @@ h1
   margin-bottom: 15px;
   margin-top: 15px;
 }
-label
+#email, #submit
 {
-  font-family: serif;
+  width: 100%;
+  background-color: floralwhite;
+  border: 0;
+  margin-top: 10px;
 }
+#submitnotselected
+{
+  color: gray;
+}
+#submit
+{
+  background-color: lightgray;
+  color: darkslategrey;
+  font-weight: 600;
+}
+form li p
+{
+  font-size: 7px;
+  float: left;
+  margin-left: 3px;
+  margin-top: 10px;
+}
+li div#EULA
+{
+  color: darkcyan;
+  text-decoration-line: underline;
+  text-decoration-color: darkcyan;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 440px) and (max-width: 1024px)
 {
   /*tablet*/
   body
   {
     background-color: aqua;
+  }
+  #submit
+  {
+    display: block;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -32,5 +72,13 @@ label
   body
   {
     background-color: aquamarine;
+  }
+  #submit
+  {
+    display: block;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

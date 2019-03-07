@@ -5,7 +5,7 @@ body
 }
 h1
 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   font-family: "Times New Roman", serif;
   width: 100%;
@@ -43,8 +43,16 @@ li div#EULA
   text-decoration-line: underline;
   text-decoration-color: darkcyan;
 }
-
-
+form li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input#agreement
+{
+  position: absolute;
+  left: -1000px;
+}
 
 
 
@@ -64,6 +72,10 @@ li div#EULA
     margin-left: auto;
     margin-right: auto;
   }
+  input#agreement
+  {
+    position: static;
+  }
 }
 
 @media only screen and (min-width: 1024px)
@@ -80,5 +92,9 @@ li div#EULA
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+  }
+  input#agreement
+  {
+    position: static;
   }
 }

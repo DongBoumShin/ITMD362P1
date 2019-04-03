@@ -110,7 +110,7 @@ li#input-EULA label
   {
     width: 40%;
   }
-  li#input-email, li#input-name
+  li#input-email, li#input-name, li#input-EULA
   {
     text-align: center;
   }
@@ -146,7 +146,7 @@ li#input-EULA label
   {
     width: 450px;
   }
-  li#input-email, li#input-name
+  li#input-email, li#input-name, li#input-EULA
   {
     text-align: center;
   }

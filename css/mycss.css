@@ -1,11 +1,20 @@
 /*mobile, portrait*/
+html
+{
+  font-size: 1em/*16px=1em default*/
+  line-height: 1.2em;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+}
+
 body
 {
   background-color: aliceblue;
 }
 h1
 {
-  font-size: 25px;
+  font-size: 1.618em;/*heading, ratio = 1.618*/
+  line-height: 1.9416em;
   font-weight: 600;
   font-family: "Times New Roman", serif;
   width: 100%;
@@ -23,6 +32,8 @@ h1
 .submit
 {
   font-family: "Georgia", sans-serif;
+  font-size: 1.2em;/*A different base just for submit button.*/
+  line-height: l.44em;
   width: 100%;
   background-color: lightgray;
   color: darkslategrey;
@@ -32,7 +43,7 @@ h1
 }
 form li p
 {
-  font-size: 7px;
+  font-size: 0.618em;
   float: left;
   margin-left: 3px;
   margin-top: 10px;

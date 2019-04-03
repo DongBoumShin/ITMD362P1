@@ -16,7 +16,7 @@ h1
   font-size: 1.618em;/*heading, ratio = 1.618*/
   line-height: 1.9416em;
   font-weight: 600;
-  font-family: "Times New Roman", serif;
+  font-family: "Lora", "Times New Roman", serif;
   width: 100%;
   text-align: center;
   margin-bottom: 15px;
@@ -31,7 +31,7 @@ h1
 }
 .submit
 {
-  font-family: "Georgia", sans-serif;
+  font-family: "Rye", "Georgia", sans-serif;
   font-size: 1.2em;/*A different base just for submit button.*/
   line-height: l.44em;
   width: 100%;
@@ -56,7 +56,7 @@ li div#EULA
 }
 form li
 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Ubuntu", "Helvetica", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }

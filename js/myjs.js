@@ -54,3 +54,14 @@ jQuery(function($) {
     alert("You, the user, get enslaved by us, the Company."); 
   })
 });
+var degrees = 0;
+var speed = 50;
+function rotate() {
+  var pic = document.getElementById('fun_to_spin');
+  pic.style.transform = "rotate("+degrees+"deg)";
+  degrees--;
+  if(degrees<-359){
+    degrees=0;
+  }
+}
+window.onload=setInterval(rotate, 1000/speed);

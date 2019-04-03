@@ -50,6 +50,10 @@ form li p
   margin-left: 3px;
   margin-top: 10px;
 }
+form li label
+{
+  padding-left: 10px;
+}
 li div#EULA
 {
   color: darkcyan;

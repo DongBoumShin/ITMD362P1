@@ -114,6 +114,12 @@ li#input-EULA label
   {
     text-align: center;
   }
+  li#wEULA
+  {
+    width: 204px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-width: 1024px)
@@ -149,5 +155,11 @@ li#input-EULA label
   li#input-email, li#input-name, li#input-EULA
   {
     text-align: center;
+  }
+    li#wEULA
+  {
+    width: 204px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
